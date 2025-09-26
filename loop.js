@@ -48,7 +48,7 @@ console.log(larg);
 //task 7
 console.log("*task 7*");
 arrS=[5,4,3,2,1]
-small=arr[0];
+small=arrS[0];
 for(i=0;i<=arrS.length;i++){
         if(arrS[i]<small){
         small=arrS[i];
