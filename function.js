@@ -52,11 +52,11 @@ evenNum([1,2,3,4,5,6,7,8,9]);
 console.log("*task 5*");
 function getAbsSum(numb){
 let sum=0;
-for(i=0;i<=numb.length;i++){
-        sum+=numb[i]; 
-        console.log(-(sum));
+for(i=0;i<numb.length;i++){
+        sum+=Math.abs(numb[i]); 
+        
 }
-
+console.log(sum);
 }
 getAbsSum([-1,-3,-5,-4,-10,0]);
 
