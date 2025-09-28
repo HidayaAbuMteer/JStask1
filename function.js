@@ -176,7 +176,7 @@ console.log(romanNumbers(1989));
 
 console.log("*task 11*");
 function countWords(text) {
-      const words = text.trim().split(/\s+/); 
+      let words = text.trim().split(/\s+/); 
       console.log( words.length);
     }
 countWords('hello from CodingAcademy');
